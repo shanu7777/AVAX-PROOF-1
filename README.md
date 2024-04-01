@@ -1,8 +1,4 @@
-# Avalanche-Subnets
-
-## ERC20 Token and Vault Smart Contract
-
-## Overview
+# AVAX-PROOF-1
 
 This repository hosts two Solidity smart contracts: `ERC20.sol` and `vault.sol`. The `ERC20.sol` contract establishes a basic ERC-20 token, incorporating essential functions such as transfer, approve, mint, and burn. On the other hand, the `vault.sol` contract serves as a secure storage solution for the ERC-20 token, enabling users to deposit and withdraw tokens while managing the overall supply and individual balances.
 
@@ -48,8 +44,9 @@ Once deployed, interact with the contracts through the provided functions:
 
 ## Authors
 
-- pras777
+- Shanu7777
 
 ## License:
 
 This project is licensed under the MIT License. Refer to the LICENSE file for details.
+- - -
