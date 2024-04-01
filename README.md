@@ -1,52 +1,36 @@
-# AVAX-PROOF-1
+#AVAX-PROOF-1
 
-This repository hosts two Solidity smart contracts: `ERC20.sol` and `vault.sol`. The `ERC20.sol` contract establishes a basic ERC-20 token, incorporating essential functions such as transfer, approve, mint, and burn. On the other hand, the `vault.sol` contract serves as a secure storage solution for the ERC-20 token, enabling users to deposit and withdraw tokens while managing the overall supply and individual balances.
+## DeFi Kingdom Clone
 
-## Getting Started with Remix:
+Welcome to the DeFi Kingdom Clone repository! This project aims to replicate the core functionalities of DeFi Kingdoms on the Avalanche network. Below are the steps to set up your environment, deploy contracts, and start building your game.
 
-### Prerequisites:
+## Set Up Your EVM Subnet
 
-1. Install Remix IDE on your web browser.
-2. Ensure compatibility with an Ethereum wallet (e.g., MetaMask) for interacting with contracts on the Ethereum blockchain.
+Follow the guide provided by Avalanche documentation to create a custom EVM subnet on the Avalanche network. This subnet will serve as the underlying infrastructure for deploying your game contracts.
 
-### Steps:
+## Define Your Native Currency
 
-1. Open Remix IDE:
-   - Navigate your web browser to Remix IDE.
+Create your own native currency to be used as the in-game currency for your DeFi Kingdom Clone. You can deploy a custom ERC-20 token using Solidity and Remix, specifying the token name, symbol, total supply, and any other parameters relevant to your game.
 
-2. Import Contracts:
-   - Copy the contents of `ERC20.sol` and `vault.sol`.
-   - Within Remix, create new files named `ERC20.sol` and `vault.sol`.
-   - Paste the respective contents into each file.
+## Connect to Metamask
 
-3. Compile Contracts:
-   - Within Remix, access the "Solidity" tab.
-   - Choose the appropriate version for the Solidity compiler (e.g., ^0.8.17).
-   - Click the "Compile" button to compile the contracts.
+Connect your EVM Subnet to Metamask to enable users to interact with your game using their Metamask wallets. Follow the steps provided in our guide to configure Metamask to connect to your custom EVM Subnet.
 
-4. Deploy Token Contract:
-   - Switch to the "Deploy & Run Transactions" tab.
-   - Select `ERC20.sol` in the contract dropdown.
-   - Click the "Deploy" button to initiate the deployment of the ERC-20 token contract.
+## Deploy Basic Building Blocks
 
-5. Copy Token Address:
-   - Upon deployment, copy the token contract address from the Remix console.
+Utilize Solidity and Remix to deploy the basic building blocks of your game, including smart contracts for battling, exploring, and trading. These contracts will define the game rules, manage liquidity pools, tokens, and other essential functionalities.
 
-6. Deploy Vault Contract:
-   - Choose `vault.sol` in the contract dropdown.
-   - Paste the ERC-20 token contract address into the constructor parameter for Vault.
-   - Click the "Deploy" button to deploy the vault contract.
+## Readme File
 
-### Interact with Contracts:
-
-Once deployed, interact with the contracts through the provided functions:
-- Connect your EVM Subnet to Remix for transaction execution.
+Please refer to the README.md file in this repository for detailed instructions on setting up your environment, deploying contracts, and interacting with your DeFi Kingdom Clone. The README will provide step-by-step guidance, including prerequisites, installation instructions, and usage guidelines.
 
 ## Authors
 
-- Shanu7777
+- Shnau7777
 
-## License:
+## License
 
-This project is licensed under the MIT License. Refer to the LICENSE file for details.
+This project is licensed under the [License Name] License - see the LICENSE.md file for details.
+
+Feel free to reach out if you have any questions or need further assistance. Happy coding!
 - - -
