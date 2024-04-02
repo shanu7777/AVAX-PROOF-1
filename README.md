@@ -6,7 +6,7 @@ Welcome to the DeFi Kingdom Clone repository! This project aims to replicate the
 
 ## Set Up Your EVM Subnet
 
-Follow the guide provided by Avalanche documentation to create a custom EVM subnet on the Avalanche network. This subnet will serve as the underlying infrastructure for deploying your game contracts.
+Follow the guide provided by Avalanche documentation to create a custom EVM subnet on the Avalanche network. This subnet will serve as the underlying infrastructure for deploying your game contracts. 
 
 ## Define Your Native Currency
 
